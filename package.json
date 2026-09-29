@@ -1,0 +1,14 @@
+{
+  "name": "organize",
+  "version": "1.1.0",
+  "private": true,
+  "description": "ORGANIZE — a minimalist historical narrative game about Black organizing in the United States. Static, offline-capable PWA.",
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs 8080",
+    "check": "node tools/check-content.mjs",
+    "test:e2e": "node tools/e2e.mjs",
+    "shots": "node tools/e2e.mjs --shots"
+  },
+  "license": "UNLICENSED"
+}
